@@ -1,0 +1,24 @@
+body{
+  font-family: 'Dancing Script', cursive;
+}
+h1{
+  padding-top:5%;
+  color:rgb(245, 237, 237);
+  text-align: center;
+  font-size: 50px;
+}
+h2{
+  padding-top:5%;
+  color:rgb(139, 65, 65);
+  text-align: center;
+  font-size: 50px;
+}
+.parallax{
+  height: 920px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+

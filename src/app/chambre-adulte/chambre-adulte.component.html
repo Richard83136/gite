@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <title>Accueil</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" style="font-size: 30px;" href="#">La Balinaise</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" style="font-size: 20px;" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" [routerLink]="['/accueil']">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/exterieur']">Exterieur</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/cuisine']">Cuisine</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/salon']">Salon</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Chambre
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" [routerLink]="['/chambre_adulte']">Chambre Adulte</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/chambre_adulte_1']">2eme Chambre Adulte</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/chambre_enfant']">Chambre enfant</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Informations
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" [routerLink]="['/information']">Informations</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/tarifs']">Tarifs</a></li>
+              
+
+
+            </ul>
+          </li>
+
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+<div class="parallax" style="background-image: url('assets/img/chambre_baignoire.jpg');">
+</div>
+<div class="parallax" style="background-image: url('assets/img/chambre1.jpg');">
+</div>
+<div class="parallax" style="background-image: url('assets/img/sdb_ext.jpg');">
+</div>
+
+</body>
+</html>
+

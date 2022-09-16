@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <title>Accueil</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" style="font-size: 30px;" href="#">La Balinaise</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" style="font-size: 20px;" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" [routerLink]="['/accueil']">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/exterieur']">Exterieur</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/cuisine']">Cuisine</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/salon']">Salon</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Chambre
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" [routerLink]="['/chambre_adulte']">Chambre Adulte</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/chambre_adulte_1']">2eme Chambre Adulte</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/chambre_enfant']">Chambre enfant</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Informations
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" [routerLink]="['/information']">Informations</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/tarifs']">Tarifs</a></li>
+
+
+
+            </ul>
+          </li>
+
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+<div class="parallax" style="background-image: url('assets/img/vue_exterieure.jpg');">
+  <h1 >Informations sur le gîte</h1>
+</div>
+  <div class="parallax1" >
+
+    <div class="container-fluid w-100">
+      <div class="row">
+        <div class="col-6">
+          <h2 class="text-center" style="font-size:2em;"><span style="font-size:2em; color:brown">E</span>xterieur</h2><br>
+            <p style="font-size:100%;text-align:justify;padding-left: 35%;" >
+              Une piscine de forme abstraite occupe la majeure partie de la cour de la Villa La Balinaise avec une atmosphère excitante et invitante pour que vous puissiez plonger, faire des longueurs, pagayer ou même vous adonner à des jeux aquatiques! La terrasse de piscine en bois borde la piscine de tous côtés afin que vous puissiez vous prélasser sur les chaises longues ou sur la terrasse, bronzer ou siroter des boissons fraîches sous le soleil tropical. Des jardins verdoyants entourent la zone jusqu'à la périphérie de la villa et si les enfants vous accompagnent, ils peuvent courir et jouer dans l 'herbe fraîchement coupée. C'est vraiment un paradis loin de chez vous, juste ce dont vous avez besoin pour des vacances tropicales parfaites!
+        </div>
+
+        <div class="col-6 " style="margin-top: 5%;">
+          <img src="assets/img/piscine.jpg" class="w-75 m-3" alt="chambre">
+        </div>
+
+    </div>
+  </div>
+</div><hr>
+  <div class="parallax1" >
+
+    <div class="container-fluid w-100">
+      <div class="row">
+        <div class="col-6 " style="margin-top: 3%;">
+          <img src="assets/img/chambre_vue_ext.jpg" class="w-75 " style="margin-left: 20%;" alt="chambre">
+        </div>
+        <div class="col-6">
+          <h2 class="text-center" style="font-size:2em;"><span style="font-size:2em; color:brown">C</span>hambre</h2><br>
+            <p style="font-size:100%;text-align:justify;padding-right: 35%;" >
+              La Villa Balinaise dispose d’une quatre chambres bien meublées et spacieuses situées autour ou surplombant la piscine. La chambre principale se trouve au deuxième étage et l'une des chambres d'hôtes se trouve dans un pavillon séparé. Les chambres ont été meublées avec des lits king-size confortables, de sorte que vous pouvez profiter de la vue tout en vous allongeant sur le matelas confortable. La chambre individuelle mène à une mezzanine et dispose également de deux canapés-lits ce qui en fait un complexe familial idéal. Elles sont minimalement meublées avec des intérieurs blancs et en bois pour un cadre propre et net. Avec un grand espace de rangement, il y a des salles de bains privatives qui ont des baignoires autoportantes pour les invités!
+        </div>
+    </div>
+  </div>
+</div><hr>
+  <div class="parallax1" >
+
+    <div class="container-fluid w-100">
+      <div class="row">
+        <div class="col-6">
+          <h2 class="text-center" style="font-size:2em;"><span style="font-size:2em; color:brown">S</span>alon</h2><br>
+            <p style="font-size:100%;text-align:justify;padding-left: 35%;" >
+              Célèbre style de vie d’île avec des salles de séjour en plein air, le salon de la piscine fait face à une vue remarquable sur les jardins avec sa végétation luxuriante. Le toit élevé traditionnel balinais ajoute une touche d'élégance et d'opulence à cet espace particulier, car il est même équipé de lampes suspendues qui illuminent la pièce le soir venu. Profitez d'une vue sur le coucher de soleil pendant que vous sirotez votre thé du soir directement sur les canapés confortables de la plate-forme. Sur le pont, il y a plusieurs chaises pour une expérience en plein air.
+
+Sur le côté, il y a la salle à manger avec une table à manger de huit places qui donne également sur la piscine et les jardins, pour un repas agréable en plein air. Les ventilateurs permettent de ventiler la pièce et la brise fraîche de l'île vous offre une ambiance rafraîchissante. La cuisine ouverte est entièrement équipée et dispose également de plusieurs appareils et équipements pour votre usage.
+        </div>
+
+        <div class="col-6 " style="margin-top: 5%;">
+          <img src="assets/img/salon.jpg" class="w-75 m-3" alt="chambre">
+        </div>
+
+    </div>
+  </div>
+</div>
+<div class="parallax2" style="background-color:white;">
+<hr>
+  <img src="assets/img/equipement.png" class="w-75 d-block mx-auto" alt="equipement">
+
+
+</div>
+
+
+
+<div class="parallax2">
+  <div class="trouver container-fluid" style="background-color:bisque; height:auto;">
+    <h3 style="text-align:center;padding-top:2%;padding-bottom: 2%;font-size: 40px;">Nous trouver </h3>
+      <div class="container-fluid">
+    <img src="assets/img/trouver.png" class="d-block mx-auto w-50"alt="notreadresse">
+  <p style="color:blue; text-align:center; font-size: 20px;"><br><a href="https://goo.gl/maps/Q6xbMmpqkV99AH5T8" target="_blank" >Cliquez ici pour nous trouver </a> </p><br><br>
+  </div></div>
+</div>
+<footer>
+  <div class="row">
+    <div class="col-5">
+      <h5>&copy; 2022 | La Balinaise</h5>
+    </div>
+    <div class="col-5">
+      <h6 style="padding-top:5px;">&copy;2022 | By Richard.Schulze</h6>
+    </div>
+    <div class="col-2">
+      <h6 style="padding-top:5px;">Site de présentation</h6>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
